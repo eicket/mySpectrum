@@ -6,7 +6,7 @@ Audio spectrum analyzer written in Java listening on the selected audio port.
 
 ## Some implementation details 
 
-The app uses a sampling rate of 48000 and an fft size of 4096.
+The app uses a sampling rate of 48000 and a fft size of 4096.
 
 ## Java environment
 
