@@ -1,3 +1,4 @@
+// Erik Icket, ON4PB - 2022
 package spectrum;
 
 import audio.AudioIn;
@@ -119,12 +120,12 @@ public class MainController
     @FXML
     void xAxisOnScroll(ScrollEvent event)
     {
-           double axisScale = xAxis.getUpperBound() - xAxis.getLowerBound();
-            double delta = axisScale / 4;
-            
+        double axisScale = xAxis.getUpperBound() - xAxis.getLowerBound();
+        double delta = axisScale / 4;
+
         if (event.getDeltaY() > 0)
         {
-         
+
             xAxis.setUpperBound(xAxis.getUpperBound() + delta);
             xAxis.setLowerBound(xAxis.getLowerBound() - delta);
 
@@ -136,13 +137,13 @@ public class MainController
         }
         else
         {
-              xAxis.setUpperBound(xAxis.getUpperBound() - delta);
+            xAxis.setUpperBound(xAxis.getUpperBound() - delta);
             xAxis.setLowerBound(xAxis.getLowerBound() + delta);
-            
+
             /*
             xAxis.setUpperBound(xAxis.getUpperBound() / 2);
             xAxis.setLowerBound(2 * xAxis.getLowerBound());
-*/
+             */
             // xAxis.setTickUnit(xAxis.getUpperBound() / 20);
         }
 

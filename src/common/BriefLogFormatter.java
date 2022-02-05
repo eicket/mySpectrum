@@ -1,3 +1,4 @@
+// Erik Icket, ON4PB - 2022
 package common;
 
 import java.text.DateFormat;
@@ -8,6 +9,7 @@ import java.util.logging.LogRecord;
 
 public class BriefLogFormatter extends Formatter
 {
+
     private static final DateFormat format = new SimpleDateFormat("H:mm:ss:SSS");
     private static final String lineSep = System.getProperty("line.separator");
 

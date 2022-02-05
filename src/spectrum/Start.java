@@ -1,3 +1,4 @@
+// Erik Icket, ON4PB - 2022
 package spectrum;
 
 import javafx.application.Application;

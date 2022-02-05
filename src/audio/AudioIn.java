@@ -1,3 +1,4 @@
+// Erik Icket, ON4PB - 2022
 package audio;
 
 import common.PropertiesWrapper;
@@ -12,6 +13,7 @@ import javax.sound.sampled.TargetDataLine;
 
 public class AudioIn
 {
+
     static final Logger logger = Logger.getLogger(audio.AudioIn.class.getName());
 
     public static void ListAudioIn(ChoiceBox audioInBox)

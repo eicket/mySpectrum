@@ -1,3 +1,4 @@
+// Erik Icket, ON4PB - 2022
 package audio;
 
 import common.Constants;
@@ -20,7 +21,6 @@ public class AudioInThread extends Thread
 
     static final Logger logger = Logger.getLogger(audio.AudioInThread.class.getName());
     public boolean stopRequest = false;
-
 
     private int nBitsPerSample = 16;
     private boolean bBigEndian = true;

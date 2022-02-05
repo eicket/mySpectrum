@@ -1,3 +1,4 @@
+// Erik Icket, ON4PB - 2022
 package common;
 
 import java.io.FileInputStream;
@@ -35,11 +36,6 @@ public class PropertiesWrapper
     {
         prop.clear();
         setProperty("ReceivedAudioIn", "Line 9 (Virtual Audio Cable)");
-        //  setProperty("ReceivedAudioOut", "White Speakers (USB Audio Device)");
-        setProperty("ReceivedAudioOut", "SMS23A350H (High Definition Audio Device)");
-        setProperty("YAxisHigh", "50000");
-        setProperty("waterfallLow", "0");
-        setProperty("waterfallHigh", "2000");
     }
 
     public void setProperty(String name, String value)

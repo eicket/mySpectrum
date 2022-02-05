@@ -1,3 +1,4 @@
+// Erik Icket, ON4PB - 2022
 package common;
 
 import java.util.logging.Logger;
@@ -18,12 +19,12 @@ public class Utils
         String s = "length : " + array.length + " : ";
         for (int i = array.length - 1; i >= 0; i--)
         {
-            s = s.concat(Byte.toString(array[i]));            
+            s = s.concat(Byte.toString(array[i]));
         }
         return (s);
     }
-    
-      static public String bytesToHex(byte[] bytes)
+
+    static public String bytesToHex(byte[] bytes)
     {
         final char[] hexArray =
         {
