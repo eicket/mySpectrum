@@ -11,6 +11,7 @@ The app uses a sampling rate of 48000 and a fft size of 4096.
 ## Java environment
 
 This java application runs on all recent Java versions and was tested on Java 1.8, 15 and 17.
+The app is developed with NetBeans 12.6 and the project properties can be found in the nbproject folder.
 
 For all audio processing, the app uses the native javax library. So no external libraries, dll's .. are required.
 
