@@ -47,7 +47,6 @@ public class MainController
     {
         logger.info("Mouse entered, x : " + event.getX() + ", y: " + event.getY());
         lastXEntered = event.getX();
-
     }
 
     @FXML
@@ -62,7 +61,6 @@ public class MainController
         logger.info("Mouse released, x : " + event.getX() + ", y: " + event.getY() + ", delta in px : " + deltaX + ", delta in scale : " + deltaAxis);
         xAxis.setLowerBound(xAxis.getLowerBound() - deltaAxis);
         xAxis.setUpperBound(xAxis.getUpperBound() - deltaAxis);
-
     }
 
     @FXML
